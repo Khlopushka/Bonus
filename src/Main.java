@@ -6,7 +6,7 @@ public class Main {
         int bonus = refill / 100;
 
         if (refill < 1000) {
-            //bonus = 0;
+            bonus = 0;
         }
         int total = account + refill + bonus;
 
