@@ -13,18 +13,6 @@ public class Main {
         System.out.println("Итого: " + total);
         System.out.println("Бонусные рубли: " + bonus);
 
-        int account = 600;
-        int refill = 1500;
-        int bonus = refill / 100;
-
-        if (refill < 1000) {
-            bonus = 0;
-        }
-        int total = account + refill + bonus;
-
-        System.out.println("Итого: " + total);
-        System.out.println("Бонусные рубли: " + bonus);
-
 
     }
 }
